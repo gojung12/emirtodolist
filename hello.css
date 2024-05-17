@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+    margin: 0px;
+    margin: 0px;
+    background-color:  rgb(222, 221, 221);
+    box-sizing: border-box;
+}
+
+
+.container .text{
+    justify-content: center;
+    display: flex;
+    font-size: 70px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    
+}
+
+.container-isi {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  -41px -41px 82px #bebebe, 41px 41px 82px #ffffff;    
+    display: flex;
+    background-color: rgb(217, 215, 215);
+    margin-right: 1000;
+    margin-top: -2%;
+}
+
+.container12345 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.container-isi .username{
+    position: absolute;
+    margin:1%;
+    padding: 1%;
+}
+
+/* .button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 24px;
+    border: 3px solid #afafaf;
+    border-radius: 15px;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#afafaf));
+    background: -moz-linear-gradient(top, #fafafa, #afafaf);
+    background: linear-gradient(to bottom, #fafafa, #afafaf);
+    -webkit-box-shadow: #ffffff 0px 0px 40px 0px;
+    -moz-box-shadow: #ffffff 0px 0px 40px 0px;
+    box-shadow: #ffffff 0px 0px 40px 0px;
+    text-shadow: #ffffff 1px 1px 1px;
+    font: normal normal bold 10px arial;
+    color: #111111;
+    text-decoration: none;
+    position: relative;
+    left: 820px;
+    margin-top: 70px;
+    height: 19px;
+}
+.button:hover,
+.button:focus {
+    border: 3px solid #fafafa;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#d2d2d2));
+    background: -moz-linear-gradient(top, #ffffff, #d2d2d2);
+    background: linear-gradient(to bottom, #ffffff, #d2d2d2);
+    color: #111111;
+    text-decoration: none;
+}
+.button:active {
+    background: #afafaf;
+    background: -webkit-gradient(linear, left top, left bottom, from(#afafaf), to(#afafaf));
+    background: -moz-linear-gradient(top, #afafaf, #afafaf);
+    background: linear-gradient(to bottom, #afafaf, #afafaf);
+} */
+.container-name {
+   margin-left: 800px;
+   margin-top: 50px;
+}
+
+.example_e {
+    border: none;
+    background: #404040;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.example_e:hover {
+    color: #404040;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.container-task {
+    background-color: rgb(217, 215, 215);
+    height: 20vh;
+    margin-top: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.box-task {
+    width: 500px;
+    height: 320px;
+}
+
+.task1, .task2, .task3  {
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: 10px;
+}
+
+.task1, .task2 {
+    margin-bottom: 23px;
+}
+
+.container-isi .poin{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 1%;
+}
